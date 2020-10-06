@@ -1,0 +1,27 @@
+/* sayfanin arkaplan rengini degistirip farkli bir hava katmaya calistim*/
+html {
+    background-color: lightcyan;
+}
+
+/* bayragin sayfanin tam ortasinda olmasi için gerekli margin ayarlarini yaptim */
+article {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ödevde farkli metotlar kullanila bilir denmis bunun icin biraz arastirma yaptim ondan dolayi bu yolu kullandim*/
+.bayrak {
+
+    background: linear-gradient(rgb(199, 13, 13) 30%, transparent 30%, transparent 80%, rgb(199, 13, 13) 70%),
+        linear-gradient(90deg, rgb(199, 13, 13) 30%, transparent 30%, transparent 45%, white 45%, white 55%, transparent 55%, transparent 70%, rgb(199, 13, 13) 70%),
+        linear-gradient(rgb(199, 13, 13) 45%, white 45%, white 55%, rgb(199, 13, 13) 55%);
+}
+
+/* gölgelendirme icin ve bayrak ölcüleri icin gerekli islemleri yaptim*/
+.bayrak {
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 5px black;
+
+}
